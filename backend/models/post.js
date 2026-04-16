@@ -11,7 +11,7 @@ const postSchema = new mongoose.Schema(
       required: true,
     },
     category: {
-      type: String, // ✅ changed from ObjectId to String
+      type: String, 
       required: true,
     },
   },
